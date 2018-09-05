@@ -1,0 +1,9 @@
+<h1>Posts</h1>
+
+<% if  !current_user.nil? %>
+  <%= link_to "New Post" , posts_new_path %>
+<% end %>
+
+<ul class="posts">
+  <%= render @posts %>
+</ul>

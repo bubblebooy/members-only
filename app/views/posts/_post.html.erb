@@ -1,0 +1,10 @@
+<li>
+  <h3> <%= post.title %> </h3>
+  <% if  !current_user.nil? %>
+    <h4>
+      Author:
+      <%= link_to post.user.name, post.user unless post.user.nil?%>
+    </h4>
+  <% end %>
+  <p><%= post.body %></p>
+</li>

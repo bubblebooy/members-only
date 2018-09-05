@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+input, textarea, select, button {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+li {
+  list-style-type:none;
+  border-style: solid none none;
+  border-color: lightgrey;
+}
+
+.footer{
+  color: lightgrey;
+  margin-top: 25px;
+  border-style: solid none none;
+  /* border-color: lightgrey; */
+}
