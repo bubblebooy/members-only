@@ -26,7 +26,7 @@ User.create!(name:  "Max",
             password:              "password",
             password_confirmation: "password")
 
-            
+
 Post.create!( title: "Example Title",
               body: "Example post body with example post words. Writen by an example user",
               user_id:"1")
@@ -50,4 +50,7 @@ Post.create!( title: "meow",
               user_id: "2")
 Post.create!( title: "cat activity log: 1 ",
               body: "spent 8 hours lying in sun spot",
+              user_id: "2")
+Post.create!( title: "hacker",
+              body: "you can go to /users/new to make make anccount and login",
               user_id: "2")
